@@ -1,0 +1,100 @@
+
+body {
+    background-image: url("Note_image.jpeg");
+    background-size: cover; /* Ensures the image covers the whole element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    /* filter: brightness(2.5); */
+  
+    /* opacity: 50%; */
+    font-family: "DM Sans", serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mainDiv {
+    /* background-color: #984744;  */
+    border-radius: 1rem;
+    /* width: 100%;
+    margin:auto */
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.233);
+    /* height: 25%; */
+  }
+  
+  .header {
+    color: #beb4aa;
+    margin-top: 0.5rem;
+    color: #3a2915;
+  }
+  button {
+    background-color: #f5c5c5;
+    color: yellow;
+  }
+  
+  #showTask {
+    /* border: 1px solid black; */
+    height: 370px;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    gap: 2rem;
+    /* overflow: auto; */
+    overflow-y: scroll;
+  }
+  .notes {
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 22%;
+    height: 12rem;
+    background-color: #fec5cc;
+    border-radius: 0.25rem;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.233);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    opacity: 90%;
+  }
+  
+  .noteHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 30%;
+    /* border-bottom: 2px dashed black; */
+    font-size: 1.1rem;
+    border-bottom: 1px dashed;
+  }
+  
+  .noteBody {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .note {
+    /* color: #c3b5aa;
+    color: #53110e;
+    color: red; */
+    color:#085ccc;
+  }
+  
+  .checkbox {
+    zoom: 1.2;
+  }
+  
+  .icons {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 2rem;
+  }
+  
