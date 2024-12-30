@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("Note_image.jpeg");
+    background-image: url("Back_ground_image.jpeg");
     background-size: cover; /* Ensures the image covers the whole element */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
